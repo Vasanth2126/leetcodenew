@@ -2,7 +2,7 @@ class Solution {
     public List<Integer> findMissingElements(int[] nums) {
         Arrays.sort(nums);
         List<Integer> list=new ArrayList<>();
-        List<Integer> list1=new ArrayList<>();
+        List<Integer> list2=new ArrayList<>();
 
         for(int x:nums)
         {
@@ -12,9 +12,9 @@ class Solution {
         {
             if(!list.contains(i))
             {
-                list1.add(i);
+                list2.add(i);
             }
         }
-        return list1;
+        return list2;
     }
 }
