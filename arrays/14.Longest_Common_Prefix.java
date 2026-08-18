@@ -30,7 +30,6 @@ class Solution {
             if (pass == strs.length - 1) {
                 a += c;
             }
-
             ind++;
         }
 
