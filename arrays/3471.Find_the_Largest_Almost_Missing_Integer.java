@@ -20,7 +20,6 @@ class Solution {
             i++;
             j++;
         }
-      //  list.clear();
         for(i=0;i<nums.length;i++)
         {
             int c=0;
@@ -42,7 +41,6 @@ class Solution {
                 ans=Math.max(ans,nums[i]);
             }
         }
-        // System.out.print(mainlist);
          return ans;
     }
 }
