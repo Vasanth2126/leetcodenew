@@ -20,7 +20,6 @@ class Solution {
                 b[y++] = nums[i];
             }
         }
-
         int[] ans = new int[n];
         int k = 0;
 
