@@ -1,5 +1,4 @@
 class BSTIterator {
-
     Stack<TreeNode> stack=new Stack<>();
     public BSTIterator(TreeNode root) {
         pushLeft(root);
