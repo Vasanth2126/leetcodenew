@@ -9,7 +9,7 @@ class Solution {
         }
         for(int i=0;i<ind;i++)
         {
-            int t=a1[i];
+             int t=a1[i];
             int count=0;
             while(t!=1)
             {
