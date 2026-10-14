@@ -8,7 +8,7 @@ class Solution {
             if(i<=j)
             {
                 nw+=word1.charAt(i);
-                i++;
+                i++;  
             }
             else
             {
