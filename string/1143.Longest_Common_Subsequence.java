@@ -7,7 +7,7 @@ class Solution {
     }
     for(int i=0;i<text2.length()+1;i++)
     {
-        dp[0][i]=0;
+        dp[0][i]=0;  
     }
     for(int i=1;i<text1.length()+1;i++)
     {
