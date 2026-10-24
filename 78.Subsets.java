@@ -1,6 +1,5 @@
 class Solution {
     public Set<List<Integer>> mainlist=new HashSet<>();
-    
     public void back(int[]nums,List<Integer>list1,int ind)
     {
         if(ind>=nums.length)
