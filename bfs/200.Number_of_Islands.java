@@ -25,8 +25,7 @@ class Solution {
                         {
                             int nr=R+dr[z];
                             int nc=C+dc[z];
-                            if(nr>=0 && nc>=0 && nr<r && nc<c &&grid[nr][nc]=='1' && !vis[nr][nc] )
-                            {
+                            if(nr>=0 && nc>=0 && nr<r && nc<c &&grid[nr][nc]=='1' && !vis[nr][nc] ){
                                 q.add(new int[]{nr,nc});
                                 vis[nr][nc]=true;
                             }
