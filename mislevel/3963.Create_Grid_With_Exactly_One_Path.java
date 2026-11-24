@@ -23,7 +23,7 @@ class Solution {
                 a+=grid[i][j];
             }
             ret[i]=a;
-        }
+    }
         return ret;
     }
 }
